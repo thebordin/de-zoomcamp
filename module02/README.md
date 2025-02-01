@@ -18,3 +18,10 @@ where filename like 'green_tripdata_2020%'
     Answer
     1,734,051
 
+### Question 5.
+select count(1) from zoomcamp.yellow_tripdata
+where filename like 'yellow_tripdata_2021_03%'
+
+    Answer
+    1,925,152
+

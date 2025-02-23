@@ -1,0 +1,15 @@
+[0m13:33:29.119029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002188B9C41A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002188C380CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002188976D090>]}
+
+
+============================== 13:33:29.150834 | fa0c61a7-c15a-4062-a85e-03ff15819e36 ==============================
+[0m13:33:29.150834 [info ] [MainThread]: Running with dbt=1.9.2
+[0m13:33:29.151880 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\thebo\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt deps', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:33:29.153431 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Estudo\github\de-zoomcamp\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:33:29.156083 [debug] [MainThread]: Command `dbt deps` failed at 13:33:29.155775 after 0.45 seconds
+[0m13:33:29.156890 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002188C6E3A80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002188C696570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002188C68F9B0>]}
+[0m13:33:29.157857 [debug] [MainThread]: Flushing usage events
+[0m13:33:29.630954 [debug] [MainThread]: An error was encountered while trying to flush usage events

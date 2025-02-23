@@ -36,8 +36,8 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-module02/kestra/postgres-data
-/module01/terraform/.terraform.lock.hcl
+02_module/kestra/postgres-data
+/01_module/terraform/.terraform.lock.hcl
 /.idea/de-zoomcamp.iml
 /.idea/misc.xml
 /.idea/modules.xml

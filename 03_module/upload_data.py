@@ -8,7 +8,7 @@ import time
 BUCKET_NAME = "almb-bucket-zoomcamp"
 
 # If you authenticated through the GCP SDK you can comment out these two lines
-CREDENTIALS_FILE = "c:/Users/thebo/.gcp/gcpkey-kestra.json"
+CREDENTIALS_FILE = "c:/Users/thebo/.gcp/dbt.json"
 client = storage.Client.from_service_account_json(CREDENTIALS_FILE)
 
 BASE_URL = "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-"
